@@ -21,13 +21,11 @@
 
 /* esercizio 5 */
 .ex-5-square:hover {
-  margin: 0;
-  width: 130px;
-  height: 130px;
+  transform: scale(2);
 }
 
 .ex-5-square:active {
-  margin: 40px;
-  width: 30px;
-  height: 30px;
+  transform: scale(0.5);
 }
+
+/* esercizio 6 */
