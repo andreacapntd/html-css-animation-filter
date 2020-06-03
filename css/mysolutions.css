@@ -58,3 +58,12 @@
   border-radius: 5%;
   filter: hue-rotate(30deg) sepia(0.8);
 }
+
+/* esercizio 10 */
+.ex-10-icon {
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(360deg);}
+}
