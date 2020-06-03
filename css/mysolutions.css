@@ -67,3 +67,15 @@
 @keyframes rotate {
   0% {transform: rotate(360deg);}
 }
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+  animation: little-rotate 1s linear;
+}
+
+@keyframes little-rotate {
+  0% {transform: rotate(0);}
+  75% {transform: rotate(270deg);}
+  100% {transform: rotate(0);}
+
+}
