@@ -7,3 +7,14 @@
 .ex-2-square:active {
   width: 100%;
 }
+
+/* esercizio 3 */
+.ex-3-square:hover {
+  border-radius: 100%;
+}
+
+/* esercizio 4 */
+.ex-4-square:hover {
+  visibility: hidden;
+  opacity: 0;
+}
